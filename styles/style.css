@@ -1,14 +1,20 @@
-.body{
 
+/*barra de navegacion*/
+.navbar-brand{
+  border-right: 1px solid rgb(87, 141, 160);
 }
-
-
+.nav-item {
+  border-right: 1px solid rgb(87, 141, 160);
+}
+/* videos informativos*/
 .responsive-iframe{
   height: auto;
   width: auto;
 }
-
-/* Style all font awesome icons */
+/*Footer*/
+.social {
+  margin-top: 3%;
+}
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -16,16 +22,24 @@
   text-align: center;
   text-decoration: none;
 }
-
-/* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
 }
-
-/* Set a specific color for each brand */
-
-/* Facebook */
+/* youtube */
 .fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+/* Facebook */
+.fa-facebook {
   background: #3B5998;
   color: white;
+}
+/*Instagram*/
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.nosotros{
+  text-align: right;
 }
