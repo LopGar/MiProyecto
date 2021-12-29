@@ -1,0 +1,7 @@
+#no subir el archivo, se pone el nombre de el
+
+#No subir un directorio se comienza con / + el nombre
+
+#parano subir archivos con X extencion se pone  *.mas el nombre de la extencion
+
+/sass
