@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <title>DegluFon</title>
-  <link rel="icon" href="static/Cerebro.ico" type="imge/ico">
+  <link rel="icon" href="static/Logo.png" type="imge/ico">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,40 +16,25 @@
   <!--fonts-family-->
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
   <!--css-->
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="/sass/index.css">
 </head>
 <body>
   <!--HEADER-->
-  <!--carrusel-->
-<div id="img" class="carousel slide" data-ride="carousel">
-  <!-- Indicaciones -->
-  <ul class="carousel-indicators">
-    <li data-target="#img" data-slide-to="0" class="active"></li>
-    <li data-target="#img" data-slide-to="1"></li>
-    <li data-target="#img" data-slide-to="2"></li>
-  </ul>
-  <!-- Imagenes -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="img-fluid" src="static/Carrusel 1.jpg" alt="Cerebro">
-    </div>
-    <div class="carousel-item">
-      <img class="img-fluid"   src="static/Carrusel 2.jpeg" alt="Fonoaudiólogo en uci">
-    </div>
-    <div class="carousel-item">
-      <img class="img-fluid" src="static/Carrusel 3.jpg" alt="Fonaaudiólogo y paciente">
+<div class="conatiner-fluid">
+  <div class="encabezado">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>DEGLUFON</h1>
+        <br>
+        <h2>Aprende, Actualiza y Comparte</h2>
+      </div>
     </div>
   </div>
-  <!-- Controles izq y der -->
-  <a class="carousel-control-prev" href="#img" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#img" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
 </div>
+<br>
+<br>
 <!--BARRA DE NAVEGACION-->
-  <nav class="navbar navbar-expand-sm bg-info navbar-dark sticky-top">
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
     <a class="navbar-brand" href="../index.html"><b>Inicio</b></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -57,20 +42,13 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="deglucion.html"><b>Deglución</b></a>
+          <a class="nav-link" href="/Anexos/deglucion.html"><b>Deglución</b></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="disfagia.html"><b>Disfagia</b></a>
+          <a class="nav-link" href="/Anexos/disfagia.html"><b>Disfagia</b></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="videosypodcast.html"><b>Videos y Podcast</b></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#masinofrmacion" ><b>Más Información</b></a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#cursos">Cursos</a>
-            <a class="dropdown-item" href="#sobrenosotros">Sobre Nosotros</a>
-          </div>
+          <a class="nav-link" href="/Anexos/videosypodcast.html"><b>Videos y Podcast</b></a>
         </li>
       </ul>
     </div>  
@@ -79,129 +57,108 @@
   <br>
   <br>
 <!--CONTENT-->
-<!--Que es la fonoaudiologia-->
-<p> Que es la Fonoaudiología</p>
+<!--
+<div class="principal ">  
+  <section class="section margen-interno">
+    <div class="articulos">
+      <article class="article">
+        <img src="/static/Fonoaudiologo.jpg"> 
+        <p> <b>¿Qué es el fonoaudiólogo?</b></p>
+        <p>Es un profesional del área de la salud especializado en promoción, prevención, diagnóstico, rehabilitación y habilitación para todo el ciclo vital en las áreas de comunicación y deglución. Su campo ocupacional es salud, educación y el ámbito artístico.
+          En ellos realiza abordaje a personas con alteraciones del lenguaje, voz, audición, sistema vestibular, motricidad orofacial y deglución de manera integral promoviendo su salud y calidad de vida.</p>
+      </article>
+      <article class="article">
+        <img src="/static/Interveción fono.jpg"> 
+        <P><b>¿Dónde se puede ejercer la profesión?</b></P>
+        <br>
+        <p>La Fonoaudiología se puede ejercer en diferentes campos laborales, entre ellos, se encuentran los siguientes:
 
-
-<!--Sección Videos Informativos-->
-<br>
-<br>
-<br>
-<div class="container-fluid bg-info" id="videosypodcast"> 
-  <div class="row"> 
-    <div class="col-md-12">
-      <h4 class="text-white">En los siguientes videos podrás encontrar videos informativos relacionados con diferentes temas de la deglución.</h4>
-    </div>
-  </div>
-</div>
-<br>
-<div class="container-fluid">  
-  <div class="card-deck">
-    <div class="card border border border-info">
-      <div class="card-body text-center">
-        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/0bkllKXRwyU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>></iframe>
-        <p class="card-text text-info"> <b>Fases de la deglución</b></p>
-      </div>
-    </div>
-    <div class="card border border border-info">
-      <div class="card-body text-center">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/ngtTDrNhldk"  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="card-text text-info"> <b>Proceso de Deglución y Disfagia</b></p>
-      </div>
-    </div>
-  </div>
-</div>
-<br>
-<div class="container-fluid"> 
-  <div class="card-deck">
-    <div class="card border border border-info"> 
-      <div class="card-body text-center">
-        <iframe class="responsive-iframe" src="https://www.youtube.com/embed/8pdrFhhJzEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>></iframe>
-        <p class="card-text text-info"><b>Disfagia signos y síntomás clínicos</b></p>
-      </div>
-    </div>
-    <div class="card border border border-info">
-      <div class="card-body text-center">
-          <iframe class="responsive-iframe" src="https://www.youtube.com/embed/e3da5Q-j_s4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="card-text text-info"><b>Diangnóstico de Disfagia</b></p>
-      </div>
-    </div>
-  </div>
-</div>
-<br>
-<br>
-<!--Sección paginas amigas-->
-<div class="container">
-  <div class="row" id="otraspaginas" >
-    <div class="col-md-4">
-      <h3 class="text-info text-right" ">En estas páginas podrás encontrar más información.</h3>
-    </div>
-    <div class="col-md-4" >
-      <div class="card" style="width:300px">
+          •	Salud: Centros de Salud de atención primaria, secundaria y terciaria.
+          •	Educación: Centros educativos como escuelas especiales, colegios regulares o con Programa de Integración Escolar
+          •	Voz ocupacional y profesional: Escuelas de canto, teatro y oratoria, o bien, cualquier persona que desee entrenamiento vocal (por ejemplo, educadores, profesores, locutores, periodistas, entre otros).</p>
+      </article>
+      <article class="article">
+        <p><b>¿Quiénes pueden acudir al Fonoaudiólogo/a?</b></p>
+        <p>Toda persona que desee y/o requiera atención fonoaudiológica para adquirir, mantener o mejorar habilidades dentro de nuestro campo de acción.</p>
+      
+      </article>
+      <article class="article">
+       
         
-        <div class="card-body">
-          <h4 class="card-title">Centro Logo Lea</h4>
-          <p class="card-text">Conoce más información sobre las fases de la deglución.</p>
-          <a href="https://www.centrologolea.es/fase-de-la-deglucion/" target="_blank" class="btn btn-secondary">Quiero saber más</a>
-        </div>
-      </div>
+      </article>
     </div>
-    <div class="col-md-4">
-      <div class="card" style="width:300px">
-        <div class="card-body">
-          <h4 class="card-title">Mayo Clinic</h4>
-          <p class="card-text">Obtén más información sobre la disfagia.</p>
-          <a href="https://www.mayoclinic.org/es-es/diseases-conditions/dysphagia/symptoms-causes/syc-20372028" target="_blank" class="btn btn-secondary">Quiero saber más</a>
-        </div>
-      </div>
-    </div>
-  </div>
+    
+  </section>
 </div>
-<br>
-<br>
-<br>
-<!--Sección Información-->
-<div class="container-fluid bg-info text-light" id="sobrenosotros">
-  <div class="row"> 
-    <div class="col-md-12">
-      <h4>Conoce más información sobre nosotros</h4>
-    </div>
-  </div>
-</div>
-<br>
+-->
+
+
+<!--Sección paginas amigas-->
 <div class="container-fluid">
-  <div class="row text-justify">
-    <div class="col-md-4">
-      <h5 class="text-info">¿Quiénes somos?</h5>
-      <p class="text-dark">Los fonoaudiólogos somos profesionales que nos encargamos de evaluar, diagnosticar y rehabilitar a personas con alteraciones de lenguaje, comunicación, audición, sistema vestibular, voz cantada y hablada, motricidad orofacial y deglución.</p>
-    </div>
-    <div class="col-md-4">
-      <h5 class="text-info">¿Qué hacemos?</h5>
-      <p class="text-dark">Somos quienes poseen las competencias necesarias para evaluar, diagnosticar y rehabilitar a quienes presenten alteraciones en la deglución. </p>
-    </div>
-    <div class="col-md-4">
-      <h5 class="text-info">Sobre Nosotros</h5>
-      <p class="text-dark">Somos un equipo de fonoaudiólogos especializados en el área de deglución, vivimos en Chile y queremos entregar nuestro conocimiento con la comunidad.</p> </p>
+  <div class="difpag">
+    <h3>En estas páginas podrás encontrar más información.</h3>
+    <br>
+    <br>
+    <div class="row" id="otraspaginas" >
+      <div class="col-md-3" >
+        <div class="card" style="width:300px">
+          <div class="card-body">
+            <h4 class="card-title">Centro Logo Lea</h4>
+            <p class="card-text">Conoce más información sobre las fases de la deglución.</p>
+            <a href="https://www.centrologolea.es/fase-de-la-deglucion/" target="_blank" class="btn btn-secondary">Quiero saber más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" >
+        <div class="card" style="width:300px">
+          <div class="card-body">
+            <h4 class="card-title">Centro Logo Lea</h4>
+            <p class="card-text">Conoce más información sobre las fases de la deglución.</p>
+            <a href="https://www.centrologolea.es/fase-de-la-deglucion/" target="_blank" class="btn btn-secondary">Quiero saber más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3" >
+        <div class="card" style="width:300px">
+          <div class="card-body">
+            <h4 class="card-title">Centro Logo Lea</h4>
+            <p class="card-text">Conoce más información sobre las fases de la deglución.</p>
+            <a href="https://www.centrologolea.es/fase-de-la-deglucion/" target="_blank" class="btn btn-secondary">Quiero saber más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width:300px">
+          <div class="card-body">
+            <h4 class="card-title">Mayo Clinic</h4>
+            <p class="card-text">Obtén más información sobre la disfagia.</p>
+            <a href="https://www.mayoclinic.org/es-es/diseases-conditions/dysphagia/symptoms-causes/syc-20372028" target="_blank" class="btn btn-secondary">Quiero saber más</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+ 
 </div>
 <br>
-<!--FOOTER-->
 <br>
-<div class="container-fluid bg-info">
+<br>
+
+<!--FOOTER-->
+<div class="container-fluid bg-info" >
   <div class="container" id="footer">
     <div class="row">
-      <div class="col-sm-6">
+      <div class="col-sm-9">
         <div class="social">
-          <a href="https://www.youtube.com/channel/UCib6iH3IOlgmdTPNWsPrm0w" target="_blank"><i class="fa fa-youtube"></i></a>
+          <a href="https://www.youtube.com/channel/UCib6iH3IOlgmdTPNWsPrm0w" target="_blank"><i class="fa fa-youtube" ></i></a>
           <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i> </a>
           <a href="https://www.instagram.com/naty_lopezg/" target="_blank"><i class="fa fa-instagram"></i></a>
         </div>
         <p><b>© 2021 Fonoaudiología y Deglución.</b></p>
       </div>
-      <div class="col-sm-6">
-        <div class="Nosotros">
-          <h5>Nosotros</h5>
+      <div class="col-sm-3">
+        <div class="footer2">
+          <h4>Nosotros</h4>
           <a class="text-white" href="#">Nuestra visión</a><br>
           <a class="text-white" href="#">Nuestra misión</a><br>
           <a class="text-white" href="#">Contacto</a><br>
